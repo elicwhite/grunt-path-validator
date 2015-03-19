@@ -2,6 +2,8 @@
 
 > Validate that file names match given globs
 
+[![Build Status](https://travis-ci.org/TheSavior/grunt-path-validator.svg?branch=master)](https://travis-ci.org/TheSavior/grunt-path-validator)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 

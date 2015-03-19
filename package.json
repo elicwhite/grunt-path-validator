@@ -2,7 +2,7 @@
   "name": "grunt-path-validator",
   "description": "Validate that file names match given globs",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://github.com/TheSavior/grunt-path-validator",
   "author": {
     "name": "Eli White",
     "email": "github@eli-white.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "https://github.com/TheSavior/grunt-path-validator.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/TheSavior/grunt-path-validator/issues"
   },
   "licenses": [
     {
@@ -37,6 +37,10 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "validate",
+    "paths",
+    "file name",
+    "filename"
   ]
 }
