@@ -1,8 +1,17 @@
 sudo: false
 language: node_js
 node_js:
-  - node
-  - '4'
-  - '0.12'
+- node
+- '4'
+- '0.12'
 notifications:
   email: false
+deploy:
+  provider: npm
+  email: npm@eli-white.com
+  api_key:
+    secure: Wg1fAmkeTL1tEovrCb6bR6zkRgT924bnIvX74H2YPs/EV+9eyBYrgZzlxVCBPlUTBNNhQLeCUGGoeoiEhayH3d5aJ7r+yPDlVQfRMRmAmJjyNhZtFIpqR/yb/pV5G8cuXCCxmo6bymk8+6RmmUOULdonQJ/zhW/wrUVmTrvh+/M=
+  on:
+    tags: true
+    repo: TheSavior/grunt-path-validator
+    node: node
