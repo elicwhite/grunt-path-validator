@@ -1,7 +1,7 @@
 {
   "name": "grunt-path-validator",
   "description": "Validate that file names match given globs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/TheSavior/grunt-path-validator",
   "author": {
     "name": "Eli White",
